@@ -161,6 +161,11 @@ main {
 /*blogs*/
  
 /*sidebar*/
+#skippr {
+  height: 200px;
+  width: 200px;
+}
+
 .sidebar {
   width: 230px;
   float: left;
@@ -190,9 +195,9 @@ main {
   background-size: cover;
   background-position: center;
 }
-.instagram-box:nth-child(odd) {
+/* .instagram-box:nth-child(odd) {
   margin: 0 10px 10px 0;
-}
+} */
 .instagram-box:nth-child(1) {
   background-image: url(img/airport.jpg);
 }
